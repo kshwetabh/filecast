@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "scriptc": "^0.0.22"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
+  }
+}
