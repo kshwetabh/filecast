@@ -8,7 +8,13 @@ Works with browsers that modern tools have abandoned: iOS 9 Safari, old Android 
 
 ## Who is this for?
 
-Non-technical users who just want a quick and dirty way to share files with another device on the same network. No accounts, no cloud, no configuration, no reading manuals: drop files in a folder, double-click the app, open the URL it shows on the other device. It is deliberately minimal — one folder, one URL.
+Non-technical users who just want a quick and dirty way to share files with another device on the same network. No accounts, no cloud, no configuration, no reading manuals: drop files in a folder, double-click the app, open the URL it shows on the other device. It is deliberately minimal — one file, one folder, one URL.
+
+## Download
+
+Get the latest Windows build here: **[Download filecast.exe](https://github.com/kshwetabh/filecast/releases/tag/continuous)**
+
+A SHA-256 checksum file is attached alongside the binary so you can verify it. See the [releases page](https://github.com/kshwetabh/filecast/releases) for all builds.
 
 ## Features
 
