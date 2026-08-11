@@ -32,6 +32,15 @@ Notes:
 - If port 8000 is busy, the app automatically uses the next free port and shows the correct URL.
 - First run: allow the app through Windows Firewall so your devices can reach the PC.
 
+### Windows "Unknown Publisher" warning
+
+The first time you run a downloaded `filecast.exe`, Windows may show a warning that the publisher is unknown. This is expected — the app is not code-signed (signing certificates are paid), and Windows distrusts downloaded executables by default. It is safe to run:
+
+- **Option A:** click **More info** → **Run anyway**, or
+- **Option B:** right-click `filecast.exe` → **Properties** → tick **Unblock** → **OK**. This removes the downloaded-file flag so future launches won't ask again.
+
+Every release is built by GitHub Actions directly from this repository's source, and a SHA-256 checksum file is attached to each release so you can verify the binary matches.
+
 ## What opens on old devices
 
 - PDFs, images, audio, video, and text open directly in the device browser
