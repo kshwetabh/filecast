@@ -47,9 +47,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          $sha = $env:GITHUB_SHA.Substring(0, 7)
           gh release delete continuous --yes --cleanup-tag 2>$null | Out-Null
-          gh release create continuous filecast.exe --title "Continuous build $sha" --notes "Automatically built from commit $env:GITHUB_SHA on main."
+          gh release create continuous filecast.exe --title "Latest build" --notes "Automatically built from commit $env:GITHUB_SHA on main."
 
       - name: Publish versioned release (tag push)
         if: startsWith(github.ref, 'refs/tags/')
