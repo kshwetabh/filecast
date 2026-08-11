@@ -12,7 +12,9 @@ Non-technical users who just want a quick and simple way to share files with ano
 
 ## Download
 
-Get the latest Windows build here: **[Download filecast.exe](https://github.com/kshwetabh/filecast/releases/tag/continuous)**
+Get the latest Windows build here: **[Download filecast.zip](https://github.com/kshwetabh/filecast/releases/tag/continuous)** — extract it (right-click → *Extract All*), then double-click `filecast.exe`. The zip also avoids most antivirus false alarms and the "downloaded from internet" warning.
+
+Prefer the raw binary? **[Download filecast.exe](https://github.com/kshwetabh/filecast/releases/latest/download/filecast.exe)** (no extraction needed — see the note about Windows warnings below).
 
 A SHA-256 checksum file is attached alongside the binary so you can verify it. See the [releases page](https://github.com/kshwetabh/filecast/releases) for all builds.
 
