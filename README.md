@@ -8,7 +8,7 @@ Works with browsers that modern tools have abandoned: iOS 9 Safari, old Android 
 
 ## Who is this for?
 
-Non-technical users who just want a quick and dirty way to share files with another device on the same network. No accounts, no cloud, no configuration, no reading manuals: drop files in a folder, double-click the app, open the URL it shows on the other device. It is deliberately minimal — one file, one folder, one URL.
+Non-technical users who just want a quick and simple way to share files with another device on the same network. No accounts, no cloud, no configuration, no reading manuals: drop files in a folder, double-click the app, open the URL it shows on the other device. It is deliberately minimal — one file, one folder, one URL.
 
 ## Download
 
